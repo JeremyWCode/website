@@ -2,3 +2,12 @@
 body {
     background-color: lightgrey;
 }
+
+header {
+    border-bottom: 5px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
