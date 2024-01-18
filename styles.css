@@ -1,7 +1,10 @@
 body{
     background-color: LightGrey;
+    background-image: url(./images/herringbone.png);
     color: DarkGreen;
     font-family: 'PT Serif', serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: italic;
 }
 
 header {
@@ -13,6 +16,15 @@ h1 {
     text-align: center;
 }
 
+h2, p {
+    text-align: center;
+}
+
 footer p {
     text-align: center;
+}
+
+.banner {
+    height: 300px;
+    background-image: url(./images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
 }

@@ -1,5 +1,7 @@
 body {
     background-color: lightgreen;
+    background-image: url(../images/spikes.png);
+    font-size: 20px;
 }
 
 header {
@@ -9,12 +11,25 @@ header {
 h1 {
     text-align: center;
 }
+
+h2 {
+    text-align: center;
+}
 img {
     height: 200px;
     width: 200px;
-    text-align: center;
+    
 }
 
 footer p {
     text-align: center;
+}
+
+p {
+    line-height: 2;
+}
+
+.banner {
+    height: 300px;
+    background-image: url(../images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
 }

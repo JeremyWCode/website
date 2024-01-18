@@ -1,5 +1,8 @@
 body {
     background-color: lightgrey;
+    background-image: url(../images/white-waves.png);
+    font-size: 20px;
+    font-style: italic;
 }
 
 header {
@@ -16,4 +19,10 @@ h2 {
 
 p {
     text-align: center;
+    line-height: 2;
+}
+
+.banner {
+    height: 300px;
+    background-image: url(../images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
 }
