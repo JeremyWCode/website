@@ -1,4 +1,6 @@
-
+*   {
+    text-align: center;
+}
 body {
     background-color: lightgrey;
     background-image: url(../images/double-bubble\ \(1\).png);
@@ -7,7 +9,10 @@ body {
 }
 
 header {
-    border-bottom: 5px solid black;
+    border-right: 5px solid darkgreen; 
+    border-left: 5px solid darkgreen;
+    border-top: 5px solid darkgreen;
+    border-bottom: 5px solid darkgreen;
 }
 
 h1 {
@@ -16,6 +21,11 @@ h1 {
 
 h2 {
     text-align: center;
+}
+
+ul  {
+    display: inline;
+    
 }
 
 p {
@@ -31,8 +41,16 @@ footer p {
     text-align: center;
 }
 
+img {
+    height: 600px;
+    width: 400px;
+}
+
 .banner {
-    height: 300px;
+    height: 400px;
     background-image: url(../images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
+    border-right: 5px solid darkgreen; 
+    border-left: 5px solid darkgreen;
+    border-bottom: 5px solid darkgreen;
 }
 

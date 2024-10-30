@@ -1,3 +1,6 @@
+*   {
+    text-align: center;
+}
 body{
     background-color: LightGrey;
     background-image: url(./images/herringbone.png);
@@ -7,12 +10,19 @@ body{
     font-style: italic;
 }
 
+ul  {
+    display: inline;
+}
+
 header {
-    border-bottom: 5px solid blue;
+    border-right: 5px solid rgb(5, 5, 8); 
+    border-left: 5px solid rgb(5, 5, 8);
+    border-top: 5px solid rgb(5, 5, 8);
+    border-bottom: 5px solid rgb(5, 5, 8);
 }
 
 h1 {
-    color: blue;
+    color: darkgreen;
     text-align: center;
 }
 
@@ -25,6 +35,9 @@ footer p {
 }
 
 .banner {
-    height: 300px;
+    height: 400px;
     background-image: url(./images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
+    border-right: 5px solid rgb(5, 5, 8); 
+    border-left: 5px solid rgb(5, 5, 8);
+    border-bottom: 5px solid rgb(5, 5, 8);
 }
